@@ -109,29 +109,23 @@ Ingresamos el siguiente comando:
 sudo su
 ```
 
-Tanto `sudo` como `su` se utilizan para ejecutar comandos con permisos
-de root, la principal diferencia entre los dos, es la contraseña que
+Tanto `sudo` como `su` se utilizan para ejecutar comandos con permisos de root, la principal diferencia entre los dos, es la contraseña que
 requieren.
-Mientras `sudo` requiere la contraseña del usuario actual, `su` requiere
-que ingrese la contraseña del usuario root.
+Mientras `sudo` requiere la contraseña del usuario actual, `su` requiere que ingrese la contraseña del usuario root.
 
-Al ejecutar el comando `su` anteponiendo `sudo`, el sistema solo nos
-pedirá que ingresemos la contraseña del usuario actual. Una vez hecho
-esto, el comando `su` se ejecutará como root. Lo que significa que no
-necesitaremos la contraseña del usuario root.
+Al ejecutar el comando `su` anteponiendo `sudo`, el sistema solo nos pedirá que ingresemos la contraseña del usuario actual. Una vez hecho
+esto, el comando `su` se ejecutará como root. Lo que significa que no necesitaremos la contraseña del usuario root.
 
-Una vez que nos hayamos logeado, vamos a habilitar esta cuenta. Para
-eso, vamos a configurar la contraseña manualmente y vamos a utilizar el
+Una vez que nos hayamos logeado, vamos a habilitar esta cuenta. Para eso, vamos a configurar la contraseña manualmente y vamos a utilizar el
 comando:
 
 ```bash
 passwd root
 ```
 
-Lo que nos permitirá cambiar la contraseña del usuario, en este caso, el
-usuario root. Colocamos la contraseña que queramos dos veces, y listo, ya
+Lo que nos permitirá cambiar la contraseña del usuario, en este caso, el usuario root. Colocamos la contraseña que queramos dos veces, y listo, ya
 podremos acceder a la cuenta root en nuestro sistema.
 
-Ahora, o bien reiniciamos nuestro sistema o cerramos la sesión actual. Y
-en vez de logearnos como nuestro usuario normal, vamos a logearnos como
-con el usuario root y la contraseña que colocamos anteriormente.
+Ahora, o bien reiniciamos nuestro sistema o cerramos la sesión actual. Y en vez de logearnos como nuestro usuario normal, vamos a logearnos como
+el usuario root y la contraseña que colocamos anteriormente.
+
